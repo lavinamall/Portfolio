@@ -1,19 +1,19 @@
 import "./topbar.scss";
 
-export default function Topbar({ menuOpen, setMenuOpen, email }) {
+export default function Topbar({ menuOpen, setMenuOpen }) {
   return (
     <div className={"topbar " + (menuOpen && "active")}>
       <div className="wrapper">
         <div className="left">
           <a href="#intro" className="logo">
             {/* html codes for < /> */}
-            &#5176; &#47; &#5171;
+            &#5176;&#47;&#5171;
           </a>
 
           <div className="itemContainer">
             <span>
               <i className="fa fa-envelope"></i>
-              {email}
+              lavinasinbox@gmail.com
             </span>
           </div>
         </div>

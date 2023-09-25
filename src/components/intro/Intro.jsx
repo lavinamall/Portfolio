@@ -2,7 +2,7 @@ import "./intro.scss";
 import { init } from "ityped";
 import { useEffect, useRef } from "react";
 
-export default function Intro({ name }) {
+export default function Intro() {
   const textRef = useRef();
 
   useEffect(() => {
@@ -25,7 +25,7 @@ export default function Intro({ name }) {
       <div className="right">
         <div className="wrapper">
           <h2>Hi There, I'm</h2>
-          <h1>{name}</h1>
+          <h1>Lavina Mall</h1>
           <h3>
             Freelance <span ref={textRef}></span>
           </h3>

@@ -35,15 +35,15 @@
     align-items: center;
     justify-content: center;
     flex-wrap: wrap;
-    height: 90%;
+    // height: 90%;
 
     @include mobile {
-      width: 100%;
+      width: 80%;
     }
 
     .item {
-      // width: 220px;
-      height: 250px;
+      max-width: 250px;
+      // height: 250px;
       border-radius: 20px;
       border: 1px solid rgb(240, 239, 239);
       margin: 10px 20px;
@@ -56,8 +56,8 @@
       cursor: pointer;
 
       @include mobile {
-        width: 290px;
-        height: 190px;
+        max-width: 250px;
+        // height: 170px;
       }
 
       h3 {

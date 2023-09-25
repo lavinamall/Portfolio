@@ -77,13 +77,13 @@ export const worksData = [
     videoUrl: "./assets/works/invoice.mp4",
     projectLink: "#"
   },
-  {
-    id: "4",
-    icon: "./assets/globe.png",
-    title: "Web App - C.F.T Calculator",
-    desc:
-      "UI for calculation CFT of different types of woods. ",
-    videoUrl: "./assets/works/cft.mp4",
-    projectLink: "#"
-  },
+  // {
+  //   id: "4",
+  //   icon: "./assets/globe.png",
+  //   title: "Web App - C.F.T Calculator",
+  //   desc:
+  //     "UI for calculation CFT of different types of woods. ",
+  //   videoUrl: "./assets/works/cft.mp4",
+  //   projectLink: "#"
+  // },
 ];

@@ -10,20 +10,13 @@ import Socials from "./components/socials/Socials"
 
 function App() {
   const [menuOpen, setMenuOpen] = useState(false);
-  const details = {
-    name: "Lavina Mall",
-    mobile: "+91 9769883785",
-    email: "lavinasinbox@gmail.com",
-    instagram: "ms.lavina_",
-    facebook: "lavina.mall",
-  };
 
   return (
     <div className="app">
-      <Topbar menuOpen={menuOpen} setMenuOpen={setMenuOpen} email={details.email} />
+      <Topbar menuOpen={menuOpen} setMenuOpen={setMenuOpen} />
       <Menu menuOpen={menuOpen} setMenuOpen={setMenuOpen} />
       <div className="sections">
-        <Intro name={details.name} />
+        <Intro />
         <Portfolio />
         <Works />
         <Contact />
