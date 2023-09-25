@@ -1,0 +1,32 @@
+@import './global.scss';
+
+.app {
+    height: 100vh;
+
+
+    .sections {
+        width: 100vw;
+        height: calc(100vh - 70px);
+        overflow-y: scroll;
+        scroll-snap-type: y mandatory;
+        scroll-behavior: smooth;
+        scrollbar-width: none;
+        position: relative;
+        top: 70px;
+
+        &::-webkit-scrollbar {
+            display: none;
+        }
+
+        // for every element inside class sections
+        >* {
+            width: 100vw;
+            height: calc(100vh - 70px);
+            scroll-snap-align: start;
+
+            // @include mobile {
+            //     height: 100vh;
+            // }
+        }
+    }
+}
